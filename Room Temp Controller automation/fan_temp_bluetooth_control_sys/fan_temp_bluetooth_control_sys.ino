@@ -42,7 +42,7 @@ void loop() {
     }
 
   // Adjust motor speed based on temperature and bluetooth command
-  if ((temperature > TEMPERATURE_THRESHOLD1) || (data == '2')){ // Increase fan speed
+  if ((temperature > TEMPERATURE_THRESHOLD1) || (data == '1')){ // Increase fan speed
   
     analogWrite(MOTOR_PIN_ENA, 255);    // Set the motor speed to maximum (255)
     digitalWrite(MOTOR_PIN_IN1, HIGH);  // Set motor direction (forward)
@@ -63,7 +63,7 @@ void loop() {
     digitalWrite(MOTOR_PIN_IN2, LOW);
    
   }
-  else if (data == '3') {  // force stops the motor 
+  else if (data == '2') {  // force stops the motor 
     
     analogWrite(MOTOR_PIN_ENA, 0);    // Set the motor speed to a value (0)
     digitalWrite(MOTOR_PIN_IN1, HIGH);  
