@@ -13,7 +13,7 @@
 9. Now select 'Arduino UNO' from Menu > Tools > Board > Arduino AVR Boards > Arduino UNO.<br>
 10. Now select the Port in which the board is connected i.e. Menu > Tools > Port > select the port "COM....".<br>
 11. Now verify and then upload the code.<br>
-12. Now remove the Arduino UNO and connect according to the Diagram.<br><br>
+12. Now remove the Arduino UNO and connect according to the Diagram (in Arduino to hc-05 connection: connect rx to tx and tx to rx ).<br><br>
   <img src="./Screenshot .png"><br><br>
 13. After completion, Connect the Arduino UNO to the computer and open the Serial Monitor from the Arduino IDE(keep the bits to 9600 bits).<br>
 14. Now install Arduino Blue Control or any similar app on your phone.<br>
