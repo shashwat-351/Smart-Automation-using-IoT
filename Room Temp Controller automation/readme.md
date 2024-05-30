@@ -1,4 +1,6 @@
 <h2>Room Temp Controller Project</h2>
+<h4>Hardware Required:-</h4>
+<h5>1.Arduino UNO<br>2.HC-05 Bluetooth module<br>3.DHT-11 Sensor<br>4.Fan/Motor<br>5.l298N Motor Driver <br>6.Breadboard<br>7.Jumper Wire<br></h5>
 <h4>Steps:-</h4>
 <h5>1. Install Arduino IDE from the web or Microsoft Store.<br>
 2. download or copy the code from the file.<br>
