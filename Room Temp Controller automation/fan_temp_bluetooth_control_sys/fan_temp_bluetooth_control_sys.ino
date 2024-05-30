@@ -33,7 +33,7 @@ void loop() {
   Serial.println(" °C");
   
   char data;
-  data='0';
+  data='0'; // comment this if it keep stopping the fan
   if(Serial.available()>0)
    {     
     Serial.print("bluetooth: ");
