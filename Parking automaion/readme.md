@@ -13,7 +13,7 @@ ESP Board Setup<br><br>
 1. Install <a href="https://apps.microsoft.com/detail/9nblggh4rsd8?hl=en-us&gl=US">Arduino IDE</a> from the web or Microsoft Store.<br>
 2. Download or copy the code from the file.<br>
 3. Open Arduino IDE and Open a new file.<br>
-4. Paste the code here in the new file u just created. Add your wifi hotspot credential and the feeds u just created in Adafruit IO dashboard.<br>
+4. Paste the code here in the new file u just created. Add your wifi hotspot credential and the feeds u just created in the Adafruit IO dashboard into code line no. 9, 10, and 46 to 56(add mqtt name u used while creating feeds).<br>
 5. Now Download Adafruit MQTT and Other Libraries.<br>
 6. Now Add the downloaded libraries in Arduino IDE: Menu > Sketch > Include Library > Add .zip Library.<br>
 7. Now download and install ESP 8266 Board Manager: Menu > File > Perferences > Settings > Enter https:// arduino.esp8266.com/stable/package_esp82... into the ‘Additional Board Manager URL’ field and click ‘Ok’ > Menu > Tools > Board > Boards Manager > Search 'ESP8266' > Install the latest ver. of ESP8266.<br>
